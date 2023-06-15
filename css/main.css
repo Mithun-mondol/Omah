@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.menu-link {
+	@apply relative hover:text-red-400 after:content-[''] after:absolute after:w-1/2 after:h-1 after:bg-red-400 after:rounded after:-bottom-2 after:left-1/2 after:-translate-x-1/2 after:opacity-0 hover:after:opacity-100;
+}
